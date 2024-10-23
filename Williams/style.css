@@ -1,0 +1,489 @@
+@font-face {
+    font-family: akira;
+    src: url(akira_expanded/Akira\ Expanded\ Demo.otf);
+}
+
+body{
+    width: 100%;
+    margin: auto;
+}
+
+nav{
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 6vw;
+}
+
+nav a:visited, nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: akira;
+    font-size: 1.05vw;
+}
+
+nav a:active, .liens a:active{
+    font-size: 0.95vw;
+}
+
+nav input{
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    font-family: akira;
+    font-size: 1.05vw;
+    width: 6.64vw;
+    height: 3.32vw;
+    border: 0.1vw solid white;
+}
+
+nav input:hover{
+    cursor: pointer;
+    color: red;
+    border: 0.1vw solid red;
+}
+
+nav input:active{
+    border: 0.1vw solid red;
+    width: 6.30vw;
+    height: 3.15vw;
+    font-size: 0.95vw;
+}
+
+nav h1{
+    color: white;
+    font-family: akira;
+    margin-top: 2.1vw;
+    margin-right: 19vw;
+    font-size: 2vw;
+}
+
+nav img{
+    margin: 0vw 2vw;
+    height: 5vw;
+    width: 5vw;
+}
+
+nav a:hover, .liens a:hover{
+    color: red;
+}
+
+.img_header img{
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    margin-top: -5vw;
+    width: 100%;
+}
+
+.img_header h1{
+    margin-bottom: -2.5vw;
+}
+
+.img_header input{
+    margin-top: 2.5vw;
+}
+
+
+.rouge {
+    color: red;
+    font-size: 4vw;
+}
+
+
+header section h3{
+    color: white;
+    font-family: akira;
+    display: flex;
+}
+
+header section h1{
+    color: white;
+    font-family: akira;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.text_principale{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_principale h3{
+    margin: auto;
+    margin-top: 15vw;
+}
+
+.text_principale h1{
+    font-size: 4vw;
+}
+header section input{
+    width: 10vw;
+    height: 3vw;
+    margin: auto;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    font-family: akira;
+    font-size: 1vw;
+}
+
+header section input:active{
+    background-color: #ff0000c0;
+}
+header section input:hover{
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 23vw;
+    justify-content: space-evenly;
+}
+
+#steelseries{
+    width: 7vw;
+    height: 7vw;
+    margin-top: -1vw;
+}
+
+#nike{
+    width: 9vw;
+    height: 5vw;
+}
+
+#intel{
+    width: 7vw;
+    height: 5vw;
+}
+
+.NEWS h1{
+    font-family: akira;
+    margin-left: 4vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+}
+
+
+section article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#news2{
+    margin-top: 0.3vw;
+}
+
+#news2 input{
+    margin-bottom: 0.5vw;
+}
+
+#news1, #news2, #news3{ 
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    background-color: black;
+}
+
+#news1 h1,#news2 h1,#news3 h1{
+    font-size: 1.7vw;
+    color: white;
+}
+
+#news1 p,#news2 p,#news3 p{
+    color: white;
+    margin-left: 2vw;
+    margin-top: -1vw;
+    font-family: sans-serif;
+}
+
+#news1 input,#news2 input,#news3 input{
+    width: 11vw;
+    height: 2.1vw;
+    margin-left: 2vw;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    font-family: akira;
+    font-size: 1vw;
+}
+
+#news1 input:active,#news2 input:active,#news3 input:active, .vente input:active{
+    background-color: #ff0000c0;
+}
+
+#news1 input:hover,#news2 input:hover,#news3 input:hover,.vente input:hover{
+    cursor: pointer;
+}
+
+#news1 img, #news2 img, #news3 img{
+    width: 28vw;
+    height: 30vw;
+    margin-bottom: -3.5vw;
+    margin-top: -0.96vw;
+}
+
+.match{
+    background-color: black;
+    height: 43vw;
+    margin-top: 7vw;
+}
+
+.date{
+    font-family: akira;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    margin-left: 9vw;
+}
+
+.date p{
+    font-size: 0.8vw;
+    margin-bottom: -1vw;
+}
+
+.date h1{
+    font-size: 3vw;
+    margin-bottom: -0.2vw;
+}
+
+.jeu{
+    padding-top: 6vw;
+    color: #ff0000;
+}
+
+.club{
+    display: flex;
+    justify-content: right;
+    gap: 5vw;
+    color: red;
+    font-family: akira;
+    margin-top: -14vw;
+    margin-right: 5vw;
+}
+
+.club img{
+    border: 1.5vw solid white;
+    width: 15vw;
+}
+
+.club h1{
+    margin-top: 8vw;
+    font-size: 2.5vw;
+}
+
+.calendrier{
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    justify-content: left;
+    margin-left: 9vw;
+    margin-top: 3vw;
+}
+
+.calendrier p{
+    font-family: sans-serif;
+}
+
+span, .calendrier h1{
+    font-family: akira;
+    margin-bottom: 2vw;
+}
+
+span{
+    font-size: 2vw;
+}
+
+.L{
+    opacity: 50%;
+}
+ #col2{
+    margin-left: 8vw;
+    font-family:sans-serif;
+    font-size: 1.2vw;
+ }
+
+ .vente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+ }
+
+ .vente span{
+    color: #ff0000;
+    font-size: 3vw;
+ }
+
+ .vente h1{
+    font-family: akira;
+    font-size: 3vw;
+    margin-top: -2vw;
+ }
+
+ .vente input{
+    color: white;
+    background-color: #ff0000;
+    font-family: akira;
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 5vw;
+    border: none;
+    margin-top: -5vw;
+ }
+
+ .vente article{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .vente img{
+    width: 21vw;
+ }
+
+ .ultra{
+    background-color: #ff0000;
+    display: flex;
+    font-family: akira;
+    color: white;
+    height: 35vw;
+    margin-top: 3vw;
+ }
+
+ .ultra h1{
+    margin: 7vw;
+    font-size: 5vw;
+ }
+
+ .ultra input{
+    background-color: white;
+    color: red;
+    width: 25vw;
+    height: 5vw;
+    border: none;
+    margin-left: 10vw;
+    font-size: 3vw;
+    font-family: akira;
+ }
+
+ .ultra article{
+    display: flex;
+    flex-direction: column;
+ }
+
+.ultra input:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.ultra input:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: akira;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer img{
+    width: 7vw;
+    height: 7vw;
+}
+
+.logofooter{
+    display: flex;
+    flex-direction: row;
+    margin-left: -4.5vw;
+}
+
+.logofooter h1{
+    margin-top: 4vw;
+    font-size: 2.4vw;
+}
+
+.coeur{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .reseau img{
+    width: 3vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+}
+
+.coeur img{
+    width: 2vw;
+    height: 2vw;
+}
+
+.coeur p{
+    font-size: 1vw;
+}
+
+.coeur img{
+    margin-top: 0.4vw;
+    margin-right: 1vw;
+}
+
+.ligne{
+    width: 40vw;
+    height: 0.05vw;
+    background-color: grey;
+    margin-bottom: 2vw;
+}
+
+.ligne2{
+    width: 60vw;
+    height: 0.05vw;
+    background-color: grey;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.reseau img{
+margin-right: 1.3vw;
+margin-top: 1.5vw;
+}
+
+footer a{
+    margin-right: 2vw;
+}
+
+.logofooter:hover, .reseau:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    nav h1{
+        display: none;
+    }
+    nav a{
+        margin-right: 5vw;
+        font-size: 2vw;
+    }
+    nav a:active{
+        font-size: 2vw;
+    }
+    .img_header input{
+        width: 16vw;
+        height: 5vw;
+        font-size: 1.8vw;
+    }
+}

@@ -1,0 +1,237 @@
+@font-face {
+    font-family: akira;
+    src: url(akira_expanded/Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(Lucas/Montserrat-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 6vw;
+}
+
+nav a:visited,
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: akira;
+    font-size: 1.05vw;
+}
+
+nav img {
+    margin: 0.9vw 2vw;
+    height:"55vw"; 
+    width:"55vw";
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a:active {
+    font-size: 0.95vw;
+}
+
+nav input {
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    font-family: akira;
+    font-size: 1.05vw;
+    width: 6.64vw;
+    height: 3.32vw;
+    border: 0.1vw solid white;
+}
+
+nav input:hover {
+    cursor: pointer;
+    color: red;
+    border: 0.1vw solid red;
+}
+
+nav input:active {
+    border: 0.1vw solid red;
+    width: 6.30vw;
+    height: 3.15vw;
+    font-size: 0.95vw;
+}
+
+nav h1{
+    color: white;
+    font-family: akira;
+    margin-top: 2.1vw;
+    margin-right: 19vw;
+    font-size: 2vw;
+}
+
+.img_couv{  
+    filter: brightness(52%);
+    height: auto;
+    width: 100vw;
+    
+}
+
+#Nous_rejoindre h2 {
+    font-family: akira ;
+    font-size: 3.33vw;
+    margin-top: 4vw;
+    text-align: center;
+
+}
+
+.couleur{
+    color: red;
+}
+
+.trait{
+        width: 90vw;
+        height:0.1vw;
+        background-color: #000000;
+        margin-left: 5vw;
+        margin-top: 1vw;
+}
+
+#textImage{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-family:montserrat ;
+    font-size: 1.9vw;
+    margin-top: 7vw;
+}
+
+#textImage button{
+font-family: akira;
+background-color: red;
+color: white;
+font-size: 1.3vw;
+width: 15vw;
+height: 5vw;
+border: none;
+margin: 4vw;
+cursor: pointer;
+}
+
+#textImage button:active{
+    background-color: #ff0000c0;
+}
+
+#textImage img {
+    height: 25vw;
+    width: 52vw;
+    margin-left: 3vw;
+}
+
+#textImage article{
+    margin-left: 4vw;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: akira;
+    margin-top: 5vw;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer img{
+    width: 7vw;
+    height: 7vw;
+}
+
+.logofooter{
+    display: flex;
+    flex-direction: row;
+    margin-left: -4.5vw;
+}
+
+.logofooter h1{
+    margin-top: 4vw;
+    font-size: 2.4vw;
+}
+
+.coeur{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .reseau img{
+    width: 3vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+}
+
+.coeur img{
+    width: 2vw;
+    height: 2vw;
+}
+
+.coeur p{
+    font-size: 1vw;
+}
+
+.coeur img{
+    margin-top: 0.4vw;
+    margin-right: 1vw;
+}
+
+.ligne{
+    width: 40vw;
+    height: 0.05vw;
+    background-color: grey;
+    margin-bottom: 2vw;
+}
+
+.ligne2{
+    width: 60vw;
+    height: 0.05vw;
+    background-color: grey;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.reseau img{
+margin-right: 1.3vw;
+margin-top: 1.5vw;
+}
+
+footer a{
+    margin-right: 2vw;
+}
+
+.logofooter:hover, .reseau:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    nav h1{
+        display: none;
+    }
+    nav a{
+        margin-right: 5vw;
+        font-size: 1.3vw;
+    }
+    nav a:active{
+        font-size: 2vw;
+    }
+}
